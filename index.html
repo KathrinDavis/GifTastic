@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GifTastic</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+	integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+	crossorigin="anonymous">
+
+
+</head>
+
+
+<body>
+	
+	<div id= "btns">
+				
+	</div>
+	<br><hr></hr></br>
+	<div class = col-sm-3>
+		<!-- Here we create the text box for capturing the search term-->
+              <div class="form-group">
+                <label for="search">Add a Fruit:</label>
+                <input type="text" class="form-control" id="search-term">
+              </div>
+               <button type="submit" class="btn btn-default" id="run-search"><i class="fa fa-search"></i> Search</button>
+	</div>
+	
+	<div class= col-sm-9 id = "results">
+		My result Gifs go here	
+	</div>
+
+
+
+
+  <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- Code to the JavaScript File -->
+  <script src="./app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</body>
+</html>
